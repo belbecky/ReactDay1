@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import MyContact from "./Pages/MyContact";
 import Sharedlayout from "./Pages/Sharedlayout";
 import Payrol from "./Components/Payrol";
+import Socials from "./Pages/Socials";
+import NewPage from "./Pages/NewPage";
 function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<MyContact />} />
           <Route path="payrol" element={<Payrol />} />
+          <Route path="socials" element={<NewPage />} />
           <Route path="*" element={<h1>page not found</h1>} />
         </Route>
       </Routes>
